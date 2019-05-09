@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAMSXczHuCwDexS+LJoEFkNQwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkNDg4NzNlZmUtNjAwYi00NmU3LWFiNjAtNmM4ZTA0MGJjMGQw
+    MB4XDTE5MDUwOTE1NDEwNloXDTI0MDUwNzE2NDEwNlowLzEtMCsGA1UEAxMkNDg4
+    NzNlZmUtNjAwYi00NmU3LWFiNjAtNmM4ZTA0MGJjMGQwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAlH750dnAAYa44DTY1SjDWdpdOO/cTV5AirtH/hIv
+    JIqP/1nlHrz9TD5kmNJN4hgaL1KiyIa22PJRCpkzvHHjiWdVi+f64fbLhX8HBZ0p
+    i2fmHsCfc5+an7zR34DoFxDYvQ22cjCJkL4sOZHA3RTiKDuD912QrAQ1sOmSpjaS
+    YGwsYQpgxzU5kJOdrqQNM04eYY+Ir2UfrByABqAgOsNl1+fGWJUOVMEcaJuKJj3w
+    ZFffNan4kLso1MIPbM9xBQOJknq81vIumAu1b/FiMKVKeZcjz7M5Obx9Rf2nOpUG
+    cljhxKzYSgwNiiepySoM4TdGXQW4IyFvv1kdlJ9yb/rV1wIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    R4I/LqYJG0F2xDLapeSf43NHWJdO4owtLRa9n/orLt1PO/xhL/zEHQ82o0Nq8cxB
+    wXbLdmkSULo3Lwkxpa14R5WRpBFkDHyXwoAPwBsoPB3cpSwbble53bOXJzIW6DrP
+    bX93kbj+BXVo0caeZoeQ/T76ihEU/U8F3PrZDK6UNzI/5POdA/LD5xD2rw3T5GiD
+    7KFHVYk8UO8NK/Tt75ABmA84jRe/X9+5aA/37N2OIZ0jxwpUKZmb4QlS/DGeUjkG
+    1SS7I/db8/83GLMhYYBV/yGkNsVcIVDEeZHUMZnAbByt73fOJ0pqWdg0SsAdsfLM
+    RNJYBxzgkqWbktxT7ECg+w==
+    -----END CERTIFICATE-----
+  clusterName: whalebrindle
+  jx-install-version: 2.0.0-dev+e0e2434db
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.117.160
+  systemVaultName: jx-vault-whalebrindle
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
